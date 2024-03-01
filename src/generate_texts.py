@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 from config import CITY_ATTRACTIONS_LIST_DIR, PROMPTS_DIR, SMM_DIR
-from functions import get_cities, get_prompts_GPT, get_response_GPT, elapsed_time
+from functions import get_prompts_GPT, get_response_GPT, elapsed_time, get_cities
 
 
 def get_options(city: str) -> dict:    

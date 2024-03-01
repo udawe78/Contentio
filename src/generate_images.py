@@ -4,7 +4,7 @@ import json
 from io import BytesIO
 from PIL import Image
 
-from functions import get_prompts_GPT, get_images_DALLE, get_cities, elapsed_time
+from functions import get_prompts_GPT, get_images_DALLE, elapsed_time, get_cities
 from logger import logger_setup
 from config import IMG_DIR, PROMPTS_DIR, CHILDREN_ATTRACTIONS_LIST_DIR
 

@@ -8,7 +8,12 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-from config import IMG_DIR
+from config import IMG_DIR, CITIES_COUNTRIES_CSV
+
+df_cities_countries = pl.read_csv(CITIES_COUNTRIES_CSV)
+
+def get_cities():
+    return sorted(df_cities_countries['city'])
 
 
 def download_image(url: str, category: str, city: str, number: str, option: str) -> None:
