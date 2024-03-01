@@ -1,0 +1,7 @@
+.venvgpt/
+content/
+prompts/
+logs/
+src/try.py
+src/config.py
+src/__pycache__/
