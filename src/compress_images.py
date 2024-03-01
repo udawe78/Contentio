@@ -40,6 +40,7 @@ def compress_jpeg_images(source_path: str, quality: int = 80) -> None:
     except Exception as e:
         print(f"An error occurred: {e}")
 
+
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser(description='Compress JPEG images in a folder')
